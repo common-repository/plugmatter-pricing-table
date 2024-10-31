@@ -1,0 +1,816 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+a.pmpt_btn, a.pmpt_btn span.pmpt_btn_txt {
+	padding: 0;
+	border: 0;
+	vertical-align: middle;
+	display:inline-block;
+	text-decoration:none;
+	text-align: left;
+	width: auto;
+	overflow: hidden;
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 19px;
+}
+
+a.pmpt_btn {
+	padding:10px 15px;
+}
+.pmpt_column a.pmpt_btn{
+	margin: 15px !important;
+	word-break:break-all;
+	overflow: hidden !important;
+	display: inline-block;
+}
+
+span.pmpt_btn_txt {
+	margin:0px 8px 2px 8px;
+}
+
+span.pmpt_btn_txt_sub {
+	line-height: 15px;
+	font-size:11px;
+	font-weight: normal;
+}
+
+a.pmpt_btn span.pmpt_btn_ico {
+	font-size:16px;
+	position:relative;
+	top:1px;
+}
+
+a.pmpt_btn span.pmpt_btn_txt_main {
+	display:table-cell;
+	overflow: hidden;
+	word-wrap:break-word;
+}
+
+.pmpt_container a:hover{
+  text-decoration: none;
+}
+.pmpt_container a:focus{
+  text-decoration: none;
+}
+
+/*---------------------*/
+
+a.pmpt_btn_ghost_1{
+	color: gray;
+	border-radius: 0px;
+	font-size: 14px;
+	border-width:2px;
+	font-weight: bold;
+	border-style: solid;
+	border-color: currentColor;
+	background-color: transparent;
+}
+
+a.pmpt_btn_ghost_1:hover, a.pmpt_btn_ghost_2:hover, a.pmpt_btn_ghost_3:hover{
+	background-color: gray;
+	color: white;	
+	transition: 0.5s ease background-color;
+}
+	
+a.pmpt_btn_ghost_2{
+	color: gray;
+	border-radius: 5px;
+	font-size: 14px;
+	border-width:2px;
+	font-weight: bold;
+	border-style: solid;
+	border-color: currentColor;
+	background-color: transparent;
+}
+a.pmpt_btn_ghost_3{
+	color: gray;
+	border-radius: 30px;
+	font-size: 14px;
+	border-width:2px;
+	font-weight: bold;
+	border-style: solid;
+	border-color: currentColor;
+	background-color: transparent;
+}
+
+a.pmpt_btn_flat_1 {
+  font-size: 14px;
+  color: white;
+  font-weight:bold;
+  border-radius: 0px;  
+  background: red;
+}
+
+a.pmpt_btn_flat_1 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_flat_1:hover{
+	content: '';
+background-color: attr('data-color-two');
+/*	background-color: #df2d47;*/
+  color:#fff;
+}
+
+
+/*------------BUTTON 2 CODE STARTS HERE---------*/
+a.pmpt_btn_flat_2 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #468cd2;
+  font-weight:bold;
+  border-radius: 8px;
+}
+
+a.pmpt_btn_flat_2 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_flat_2:hover{
+	background-color: #60a6ec;
+  color: #ffffff;
+}
+
+/*------------------------------BUTTON 3 CODE STARTS HERE*/
+/*------------BUTTON 3 CODE STARTS HERE---------*/
+a.pmpt_btn_flat_3 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #ef3d57;
+  font-weight:bold;
+  border-radius: 30px;
+}
+
+a.pmpt_btn_flat_3 span.pmpt_btn_txt_sub {
+
+}
+
+a.pmpt_btn_flat_3:hover{
+	background-color: #df2d47;
+  color: #FFFFFF;
+}
+
+/*------------------------------BUTTON 4 CODE STARTS HERE*/
+/*------------BUTTON 4 CODE STARTS HERE---------*/
+a.pmpt_btn_flat_4 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #85c15d;
+  font-weight:bold;
+  -webkit-box-shadow: inset 30px 0px 0 0 rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 30px 0px 0 0 rgba(0, 0, 0, 0.2);
+  box-shadow: inset 30px 0px 0 0 rgba(0, 0, 0, 0.2);   
+}
+
+a.pmpt_btn_flat_4 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_flat_4:hover{
+	background-color: #7cb854;
+	color: #FFFFFF;
+}
+
+a.pmpt_btn_flat_4 span.pmpt_btn_ico {
+	left:-7px;
+}
+
+a.pmpt_btn_flat_4 span.pmpt_btn_ico  i {
+	text-align: center;
+	width:-1px;
+}
+/*------------------------------BUTTON 5 CODE STARTS HERE*/
+/*------------BUTTON 5 CODE STARTS HERE---------*/
+a.pmpt_btn_flat_5 {
+  font-size: 14px;
+  color: #FFFFFF;
+  background-color: #c956b3;
+  font-weight:bold;
+  border-radius: 8px;
+  -webkit-box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.20);
+  -moz-box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.20);
+  box-shadow: inset 0px -3px 0px 0px rgba(0,0,0,0.20);  
+}
+a.pmpt_btn_flat_5 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_flat_5:hover{
+	background-color: #d461be;
+  color: #FFFFFF;
+}
+
+
+/*------------------------------BUTTON 6 CODE STARTS HERE*/
+/*------------BUTTON 6 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_1 {
+  font-size: 16px;
+  color: #FFFFFF !important;
+  background: -webkit-linear-gradient(#3a9bea, #0e63a6); 
+  background: -o-linear-gradient(#3a9bea, #0e63a6); 
+  background: -moz-linear-gradient(#3a9bea, #0e63a6); 
+  background: linear-gradient(#3a9bea, #0e63a6); 
+  font-weight:bold;
+  border-radius: 6px;
+  border-bottom: 2px solid #0a4472;
+  text-shadow: 1px 1px 1px #444444;
+}
+
+a.pmpt_btn_fat_1 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_1:hover{
+	background: -moz-linear-gradient(center top , #3a9bea 0%, #136eb5 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(center top , #3a9bea 0%, #136eb5 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(center top , #3a9bea 0%, #136eb5 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(center top , #3a9bea 0%, #136eb5 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	color: #FFFFFF;
+}
+
+a.pmpt_btn_fat_1:active{
+	background:#136eb5 !important;
+}
+
+/*------------BUTTON 7 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_2 {
+	font-size: 14px;
+	color: #FFFFFF !important;
+	background: -webkit-linear-gradient(#6bb8ff, #2588e5); 
+	background: -o-linear-gradient(#6bb8ff, #2588e5); 
+	background: -moz-linear-gradient(#6bb8ff, #2588e5); 
+	background: linear-gradient(#6bb8ff, #2588e5); 
+	font-weight:bold;
+	border-radius: 25px;
+	text-shadow: 1px 1px 1px #555555;
+	-webkit-box-shadow: 0px 1px 2px rgb(68,68,68); /*#666666 is the hex code*/
+	-moz-box-shadow: 0px 1px 2px rgb(68,68,68);
+	box-shadow: 0px 1px 2px rgb(68,68,68);
+}
+
+a.pmpt_btn_fat_2 span.pmpt_btn_txt_main {
+	line-height:21px;
+}
+
+a.pmpt_btn_fat_2 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_2:hover{
+	background: -webkit-linear-gradient(#6bb8ff, #419df2); 
+	background: -o-linear-gradient(#6bb8ff, #419df2); 
+	background: -moz-linear-gradient(#6bb8ff, #419df2); 
+	background: linear-gradient(#6bb8ff, #419df2); 
+	color: #FFFFFF !important;
+}
+
+a.pmpt_btn_fat_2:active{
+	box-shadow:none;
+}
+
+/*------------------------------BUTTON 8 CODE STARTS HERE*/
+/*------------BUTTON 8 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_3 {
+	background: #2b7daf !important;
+	font-size: 15px;
+	color: #FFFFFF !important;
+	font-weight:bold;
+	border-radius: 8px;
+	text-shadow: 1px 1px 1px #555555;
+	padding: 0px;
+	border: 1px solid #266ca7;
+	box-shadow:0 1px 2px 0px rgba(0, 0, 0, 0.5);
+}
+
+a.pmpt_btn_fat_3 span.pmpt_btn_txt_sub {
+	background:#2b7daf;
+	position: relative;
+    top: -1px;
+}
+
+a.pmpt_btn_fat_3 span.pmpt_btn_txt_main {
+	font-size:18px;
+	padding-bottom: 10px;
+	padding: 10px 25px 10px;
+	border-bottom: 1px solid #3c8fc3;
+	background: -webkit-linear-gradient(#278cde, #2769a3); 
+	background: -o-linear-gradient(#278cde, #2769a3);
+	background: -moz-linear-gradient(#278cde, #2769a3);
+	background: linear-gradient(#278cde, #2769a3); 
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	box-shadow:0px 1px 0px 0px #4ea4e1 inset
+}
+
+a.pmpt_btn_fat_3 span.pmpt_btn_txt {
+	margin-left: 0px;
+	margin-right: 0px;
+	text-align: center;
+}
+
+a.pmpt_btn_fat_3:hover{
+	background: #2b7daf !important;
+	color:#fff;
+}
+
+a.pmpt_btn_fat_3:hover span.pmpt_btn_txt_main{
+	background: -webkit-linear-gradient(#278cde, #2b71af); 
+	background: -o-linear-gradient(#278cde, #2b71af);
+	background: -moz-linear-gradient(#278cde, #2b71af);
+	background: linear-gradient(#278cde, #2b71af); 	
+}
+
+a.pmpt_btn_fat_3:active{
+	box-shadow:none;
+}
+
+a.pmpt_btn_fat_3 span.pmpt_btn_ico {
+	display: none;
+}
+
+/*------------------------------BUTTON 9 CODE STARTS HERE*/
+/*------------BUTTON 9 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_4 {
+  font-size: 14px;
+  color: #8a8889 !important;
+  background: -webkit-linear-gradient(#ececec, #d5d3d4); 
+  background: -o-linear-gradient(#ececec, #d5d3d4); 
+  background: -moz-linear-gradient(#ececec, #d5d3d4);
+  background: linear-gradient(#ececec, #d5d3d4);
+  font-weight:bold;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px 1px 2px rgba(136,136,136,0.80);
+  -moz-box-shadow: 0px 1px 2px rgba(136,136,136,0.80);
+  box-shadow: 0px 1px 2px rgba(136,136,136,0.80);
+  border: 1px solid #d5d3d4;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.50);
+  padding-left: 20px;
+  padding-right: 20px;	
+}
+
+a.pmpt_btn_fat_4 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_4:hover{
+	background: -webkit-linear-gradient(#ececec, #e4e2e3); 
+	background: -o-linear-gradient(#ececec, #e4e2e3); 
+	background: -moz-linear-gradient(#ececec, #e4e2e3);
+	background: linear-gradient(#ececec, #e4e2e3);
+	color: #8a8889;
+}
+
+a.pmpt_btn_fat_4:active{
+	box-shadow: none;
+}
+
+/*--------------BUTTON CODE STARTS HERE*/
+a.pmpt_btn_fat_5 {
+  font-size: 14px;
+  color: #a1a1a1 !important;
+  background: -webkit-linear-gradient(#fafbff, #e6ebe7); 
+  background: -o-linear-gradient(#fafbff, #e6ebe7); 
+  background: -moz-linear-gradient(#fafbff, #e6ebe7);
+  background: linear-gradient(#fafbff, #e6ebe7);
+  font-weight:bold;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 1px 2px rgba(136,136,136, 0.80);
+  -moz-box-shadow: 0px 1px 2px rgba(136,136,136, 0.80);
+  box-shadow: 0px 1px 2px rgba(136,136,136, 0.80);
+  padding-left: 20px;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.50);
+}
+
+a.pmpt_btn_fat_5 span.pmpt_btn_txt_sub {
+	padding-left:5px;
+}
+
+a.pmpt_btn_fat_5 span.pmpt_btn_txt_main {
+	display:inline;
+	padding-right: 5px;
+}
+
+a.pmpt_btn_fat_5 span.pmpt_btn_txt span.pmpt_btn_txt_sub {
+	text-indent: 20px;
+	border-left: 1px solid #d4d4d4;
+}
+
+a.pmpt_btn_fat_5:hover{
+	background: -webkit-linear-gradient(#fafbff, #eef2ef); 
+	background: -o-linear-gradient(#fafbff, #eef2ef); 
+	background: -moz-linear-gradient(#fafbff, #eef2ef);
+	background: linear-gradient(#fafbff, #eef2ef);
+	color: #a1a1a1;
+}
+
+a.pmpt_btn_fat_5:active{
+	box-shadow: 0px 1px 1px rgba(136,136,136, 0.80);
+}
+
+/*------------BUTTON 11 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_6 {
+	font-size: 14px;
+	color: #8a8889 !important;
+	background: -webkit-linear-gradient(#f6f6f6, #cacaca); 
+	background: -o-linear-gradient(#f6f6f6, #cacaca); 
+	background: -moz-linear-gradient(#f6f6f6, #cacaca);
+	background: linear-gradient(#f6f6f6, #cacaca);
+	font-weight:bold;
+	border-radius: 8px;
+	text-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.20);
+	-webkit-box-shadow: 0px 1px 2px rgba(136, 136, 136,0.80);
+	-moz-box-shadow: 0px 1px 2px rgba(136, 136, 136,0.80);
+	box-shadow: 0px 1px 2px rgba(136, 136, 136,0.80);
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.50);
+}
+
+a.pmpt_btn_fat_6 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_6:hover{
+	background: -webkit-linear-gradient(#f6f6f6, #dedcdc); 
+	background: -o-linear-gradient(#f6f6f6, #dedcdc); 
+	background: -moz-linear-gradient(#f6f6f6, #dedcdc);
+	background: linear-gradient(#f6f6f6, #dedcdc);
+	color: #8a8889;
+}
+
+a.pmpt_btn_fat_6:active{
+	box-shadow:none;
+}
+
+/*------------------------------BUTTON 12 CODE STARTS HERE*/
+/*------------BUTTON 12 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_7 {
+	font-size: 14px;
+	color: #FFFFFF !important;
+	background: -webkit-linear-gradient(#b5d663, #7f9e26); 
+	background: -o-linear-gradient(#b5d663, #7f9e26);
+	background: -moz-linear-gradient(#b5d663, #7f9e26);
+	background: linear-gradient(#b5d663, #7f9e26);
+	font-weight:bold;
+	border-radius: 5px;
+	text-shadow: 0px 1px 1px #555555;
+	-webkit-box-shadow: 0px 1px 2px rgba(102,102,102,0.80); /*#666666 is the hex code*/
+	-moz-box-shadow: 0px 1px 2px rgba(102,102,102,0.80);
+	box-shadow: 0 0px 2px 2px rgba(0, 0, 0, 0.50);
+}
+
+a.pmpt_btn_fat_7 span.pmpt_btn_txt_sub {
+	font-size:11px;
+	color: #444444;
+	text-shadow: none;
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.50);
+	text-indent: 4px;
+}
+
+a.pmpt_btn_fat_7 span.pmpt_btn_txt_main {
+	font-size: 16px;
+	line-height:20px;
+}
+
+a.pmpt_btn_fat_7:hover{
+	background: -webkit-linear-gradient(#b5d663, #94b542); 
+	background: -o-linear-gradient(#b5d663, #94b542);
+	background: -moz-linear-gradient(#b5d663, #94b542);
+	background: linear-gradient(#b5d663, #94b542);
+	color: #FFFFFF;
+}
+
+a.pmpt_btn_fat_7:active {
+	box-shadow: 0 1px 2px 2px rgba(0, 0, 0, 0.50);
+}
+
+
+/*------------BUTTON 8 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_8 {
+	font-size: 14px;
+	color: #FFFFFF !important;
+	background: -webkit-linear-gradient(#73b439, #7eb150); 
+	background: -o-linear-gradient(#73b439, #7eb150);
+	background: -moz-linear-gradient(#73b439, #7eb150);
+	background: linear-gradient(#73b439, #7eb150);
+	border: 1px solid #527d2c;
+	font-weight:bold;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 1px 2px #7c7f82, 0 1px #9bea54 inset;
+	-moz-box-shadow: 0 1px 2px #7c7f82, 0 1px #9bea54 inset;
+	box-shadow: 0 1px 2px #7c7f82, 0 1px #9bea54 inset;
+	text-shadow: 0 -1px #30471a;
+}
+
+a.pmpt_btn_fat_8 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_8:hover{
+	background: -webkit-linear-gradient(#73b439, #90ca5c); 
+	background: -o-linear-gradient(#73b439, #90ca5c);
+	background: -moz-linear-gradient(#73b439, #90ca5c);
+	background: linear-gradient(#73b439, #90ca5c);
+	color:#fff;
+}
+
+a.pmpt_btn_fat_8:active{
+	box-shadow: none;
+}
+
+/*------------------------------BUTTON 20 CODE STARTS HERE*/
+/*------------BUTTON 20 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_9 {
+  font-size: 16px;
+  color: #FFFFFF !important;
+  background: -moz-linear-gradient(center top , #84d31d 0%, #5eaa17 35%, #458712 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -webkit-linear-gradient(center top , #84d31d 0%, #5eaa17 35%, #458712 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(center top , #84d31d 0%, #5eaa17 35%, #458712 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: linear-gradient(center top , #84d31d 0%, #5eaa17 35%, #458712 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  font-weight:bold;
+  border-radius: 5px;
+  border: 1px solid #56790c;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+  padding-bottom: 5px;
+}
+
+a.pmpt_btn_fat_9 span.pmpt_btn_txt_sub {
+  border-top: 1px solid #458712;
+  width: 100%;
+}
+
+a.pmpt_btn_fat_9 span.pmpt_btn_txt_main {
+  padding-bottom: 3px;
+}
+
+a.pmpt_btn_fat_9:hover{
+  background: -moz-linear-gradient(center top , #81d01d, #5ca717) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -webkit-linear-gradient(center top , #81d01d, #5ca717) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: -o-linear-gradient(center top , #81d01d, #5ca717) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  background: linear-gradient(center top , #81d01d, #5ca717) repeat scroll 0 0 rgba(0, 0, 0, 0);
+  color: #ffffff;
+}
+
+a.pmpt_btn_fat_9 span.pmpt_btn_ico {
+	display: none;
+}
+
+a.pmpt_btn_fat_9:active{
+	border: 2px solid #56790c;
+}
+
+
+/* ORANGE BUTTONS CODE */
+/*------------------------------BUTTON 13 CODE STARTS HERE*/
+/*------------BUTTON 13 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_10 {
+	font-size: 14px;
+	color: #66644f !important;
+	background: -webkit-linear-gradient(#f2df9a, #ecca20); 
+	background: -o-linear-gradient(#f2df9a, #ecca20); 
+	background: -moz-linear-gradient(#f2df9a, #ecca20);
+	background: linear-gradient(#f2df9a, #ecca20);
+	font-weight:bold;
+	border-radius: 4px;
+	-webkit-box-shadow: 0px 1px 2px rgba(136,136,136,0.80); /*#666666 is the hex code*/
+	-moz-box-shadow: 0px 1px 2px rgba(136,136,136,0.80);
+	box-shadow: 0px 1px 2px rgba(136,136,136,0.80);
+	border: 1px solid #ecca20;
+}
+a.pmpt_btn_fat_10 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_10:hover{
+	background: -webkit-linear-gradient(#f2df9a, #f5d434); 
+	background: -o-linear-gradient(#f2df9a, #f5d434); 
+	background: -moz-linear-gradient(#f2df9a, #f5d434);
+	background: linear-gradient(#f2df9a, #f5d434);
+	color: #66644f;
+}
+
+a.pmpt_btn_fat_10:active{
+	box-shadow:none;
+}
+
+/*------------------------------BUTTON 14 CODE STARTS HERE*/
+/*------------BUTTON 14 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_11 {
+	font-size: 16px;
+	color: #fffeff !important; 
+	background: -webkit-linear-gradient(#f6bf4b, #e47a30); 
+	background: -o-linear-gradient(#f6bf4b, #e47a30); 
+	background: -moz-linear-gradient(#f6bf4b, #e47a30);
+	background: linear-gradient(#f6bf4b, #e47a30);
+	border-top: 1px solid #f3ddc6;
+	font-weight:bold;
+	border-radius: 30px;
+	text-shadow: 0px 1px 1px #555555;
+	-webkit-box-shadow: 0px 1px 3px rgba(102,102,102,0.80); /*#666666 is the hex code*/
+	-moz-box-shadow: 0px 1px 3px rgba(102,102,102,0.80);
+	box-shadow: 0px 1px 3px rgba(102,102,102,0.80);
+	border: 1px solid #ec9e4b;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+a.pmpt_btn_fat_11 span.pmpt_btn_txt_main {
+	line-height:20px;
+}
+
+a.pmpt_btn_fat_11 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_11:hover{
+  	background: -webkit-linear-gradient(#f6bf4b, #efa641); 
+	background: -o-linear-gradient(#f6bf4b, #efa641); 
+	background: -moz-linear-gradient(#f6bf4b, #efa641);
+	background: linear-gradient(#f6bf4b, #efa641);
+	color: #fffeff;
+}
+
+a.pmpt_btn_fat_11:active{
+	box-shadow:none;
+}
+
+/*------------------------------BUTTON 15 CODE STARTS HERE*/
+/*------------BUTTON 15 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_12 {
+	font-size: 14px;
+	color: #b05d00 !important;
+	background: -webkit-linear-gradient(#ffc801, #ffb600); 
+	background: -o-linear-gradient(#ffc801, #ffb600); 
+	background: -moz-linear-gradient(#ffc801, #ffb600);
+	background: linear-gradient(#ffc801, #ffb600);
+	font-weight:bold;
+	border-radius: 4px;
+	border:#ffc801;
+}
+a.pmpt_btn_fat_12 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_12:hover{
+  	background: -webkit-linear-gradient(#ffc801, #ffc801); 
+	background: -o-linear-gradient(#ffc801, #ffc801); 
+	background: -moz-linear-gradient(#ffc801, #ffc801);
+	background: linear-gradient(#ffc801, #ffc801);
+	color: #b05d00;
+}
+a.pmpt_btn_fat_12:active{
+	border:1px solid #b05d00;
+}
+
+/*------------------------------BUTTON 16 CODE STARTS HERE*/
+/*------------BUTTON 16 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_13 {
+	font-size: 14px;
+	color: #ffffff !important;
+	background: -webkit-linear-gradient(#fa342b, #a50100); 
+	background: -o-linear-gradient(#fa342b, #a50100); 
+	background: -moz-linear-gradient(#fa342b, #a50100);
+	background: linear-gradient(#fa342b, #a50100);
+	font-weight:bold;
+	border-radius: 4px;
+	text-shadow: 0px -1px 1px rgba(0,0,0,0.50);
+	-webkit-box-shadow: 0px 1px 2px rgba(136,136,136,0.80); /*#666666 is the hex code*/
+	-moz-box-shadow: 0px 1px 2px rgba(136,136,136,0.80);
+	box-shadow: 0px 1px 2px rgba(136,136,136,0.80);
+	border: 1px solid #a50100;
+}
+
+a.pmpt_btn_fat_13 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_13:hover{
+	background: -webkit-linear-gradient(#fa342b, #b40b08); 
+	background: -o-linear-gradient(#fa342b, #b40b08);
+	background: -moz-linear-gradient(#fa342b, #b40b08);
+	background: linear-gradient(#fa342b, #b40b08);
+	color: #ffffff;
+}
+
+a.pmpt_btn_fat_13 span.pmpt_btn_ico {
+	color: #680404;
+	text-shadow: inset 1px 1px 1px 1px rgba(0,0,0,0.20);
+}
+
+
+/*------------------------------BUTTON 17 CODE STARTS HERE*/
+/*------------BUTTON 17 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_14 {
+	font-size: 14px;
+	color: #FFFFFF !important;
+	background: -webkit-linear-gradient(#d01b00, #8c0607); 
+	background: -o-linear-gradient(#d01b00, #8c0607); 
+	background: -moz-linear-gradient(#d01b00, #8c0607);
+	background: linear-gradient(#d01b00, #8c0607);
+	font-weight:bold;
+	border-radius: 6px;
+	border: 3px solid #ffffff;
+	text-shadow: 0px 1px 1px #555555;
+}
+
+a.pmpt_btn_fat_14 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_14:hover{
+	background: -webkit-linear-gradient(#d01b00, #af1103); 
+	background: -o-linear-gradient(#d01b00, #af1103); 
+	background: -moz-linear-gradient(#d01b00, #af1103);
+	background: linear-gradient(#d01b00, #af1103);
+	color: #ffffff;
+}
+
+a.pmpt_btn_fat_14:active{
+	border: 3px solid #c51801;
+}
+
+
+/*------------------------------BUTTON 18 CODE STARTS HERE*/
+/*------------BUTTON 18 CODE STARTS HERE---------*/
+a.pmpt_btn_fat_15 {
+	font-size: 14px;
+	color: #FFFFFF !important;
+	font-weight:bold;
+	border-radius: 4px;
+	background: -moz-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 51%, #b00605 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 51%, #b00605 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 51%, #b00605 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 51%, #b00605 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+a.pmpt_btn_fat_15 span.pmpt_btn_txt_sub {
+}
+
+a.pmpt_btn_fat_15:hover{
+	background: -moz-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #e12118 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	color: #ffffff;
+}
+
+a.pmpt_btn_fat_15:active{
+	background: -moz-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #fe3a2a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -webkit-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #fe3a2a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: -o-linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #fe3a2a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+	background: linear-gradient(top , #fe3a2a 0%, #ea3124 50%, #fe3a2a 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+
+
+/*---------------nav tab--------------*/
+
+.pmpt_nav_tabs{
+	display: block;
+	margin-bottom: 20px !important;
+	border-radius: 5px;
+	text-align: center;
+}
+.pmpt_nav_tabs li{
+	display: inline-block;
+	padding: 12px;
+    text-align: center;
+    font-size: 20px;
+	margin: 0px;
+	border: 1px solid #ddd;
+}
+
+.pmpt_nav_tabs li:first-child{
+	border-radius: 5px 0px 0px 5px;
+}
+.pmpt_nav_tabs li:last-child{
+	border-radius: 0px 5px 5px 0px;	
+}
+.pmpt_nav_tabs li a{
+	padding: 10px 20px;
+	cursor: pointer;
+
+}
+
+.pmpt_content{
+	display: block;
+}
+.pmpt_content .pmpt_content_active{
+	display: block;
+}
+
+.pmpt_tab_pane{
+	display: none;
+}
+.pmpt_active{
+	background: #333;
+	color: #fff;
+}
+.pmpt_active .pmpt_tab{
+	color: #fff;
+	text-decoration: none;
+}
+.pmpt_active .pmpt_tab:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.pmpt_active .pmpt_tab:focus{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+

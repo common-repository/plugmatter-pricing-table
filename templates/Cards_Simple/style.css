@@ -1,0 +1,132 @@
+/* template 4 */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab|Open+Sans);
+
+.pmpt_simple {
+  margin-left: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  position: relative;
+  max-width: 960px;
+}
+
+.pmpt_simple .pmpt_no_padding{
+    padding:0px;
+    position: relative;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_column {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  border: 1px solid rgba(0,0,0,0.1);
+  -moz-box-shadow: 0 0 5px -3px rgba(0, 0, 0, 0.5);   
+  -webkit-box-shadow: 0 0 5px -3px rgba(0, 0, 0, 0.5); 
+  box-shadow: 0 0 5px -3px rgba(0, 0, 0, 0.5);
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 12px;
+  padding: 0px;
+  overflow: hidden;
+  text-align: center;    
+  background-color: #f1f1f1;
+  margin-bottom: 12% !important;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_header {
+  background-color: #34ad00; /*#2692d0; */
+  color: #fff;
+  padding: 10px;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_feature_column .pmpt_header {
+  background-color: #34ad00; /* #2692d0; */
+  color: #fff;
+  padding: 10px;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_header .pmpt_head_main .pmpt_main_heading {
+  font-family: "Roboto Slab";
+  font-size: 22px;
+  line-height: 24px;
+  margin: 0;
+  font-weight: bold;
+  text-align: left;
+  color: #FFF; 
+}
+
+
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_header .pmpt_head_main .pmpt_sub_heading {
+  font-size: 10px;
+  line-height: 14px;    
+  text-align: left;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_header .pmpt_pricing_head .pmpt_price {
+    color: #fff;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 100% !important;    
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_header .pmpt_pricing_head  .pmpt_subscription_type{
+    display: inline-block;
+  }
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_cell {
+  background-color: #f1f1f1;
+  padding: 1%;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  color: #929292;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_cell:last-child{
+ border-bottom: transparent !important;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_feature_column .pmpt_head_main .pmpt_main_heading,
+.pmpt_simple .pmpt_no_padding .pmpt_feature_column .pmpt_head_main .pmpt_sub_heading,
+.pmpt_simple .pmpt_no_padding .pmpt_feature_column .pmpt_pricing_head .pmpt_price {
+  color: #fff;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_img,
+.pmpt_simple .pmpt_no_padding .pmpt_feature_column .pmpt_img{ 
+  max-width: 120px;
+  max-height: 120px;
+  white-space: normal;
+  position: relative;
+  
+  color: #333;
+  text-align: center;
+  margin: auto;
+  display: table;
+}
+
+.pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_img img,
+.pmpt_simple .pmpt_no_padding .pmpt_feature_column .pmpt_img img{ 
+  width:100%;
+  height: auto;
+  margin: 5px auto;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.pmpt_cell_tooltip{
+  position: relative;
+  float: left;
+}
+@media (min-width: 700px) and (max-width: 900px) {
+  .pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_header .pmpt_price{
+    font-size: 24px;  
+  }
+  .pmpt_simple .pmpt_no_padding .pmpt_column .pmpt_header .pmpt_main_heading{
+    font-size: 20px;   
+  }
+}

@@ -1,0 +1,300 @@
+{
+   "pmpt_temp_type":"CARDS",
+   "pmpt_base_template":"Cards_Basecamp",
+   "pmpt_tname":" Basecamp",
+   "pmpt_ttype":"pmpt_overlaped",
+   "pmpt_tmargin":"0",
+   "pmpt_bmargin":"0",
+   "pmpt_con_width":"800",
+   "pmpt_tc":"1",
+   "pmpt_custom_css":"",
+   "pmpt_bs_cls":"col-xs-12 col-sm-4 col-md-4",
+   "pmpt_features_list":[
+      {
+         "pmpt_value":"Projects",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Storage",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Users",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Free Trial",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      }
+   ],
+   "pmpt_matrix_box":{
+      "pmpt_value":"Choose Your Plan",
+      "pmpt_style":{
+         "height":"nullpx"
+      },
+      "pmpt_tooltip":""
+   },
+   "pmpt_packages":[
+      {
+         "pmpt_main_heading":{
+            "pmpt_value":"\n            Max",
+            "pmpt_style":{
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_sub_heading":{
+            "pmpt_value":"\n            TOP-OF-THE-LINE",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_price":{
+            "pmpt_value":"\n            $149          ",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_subscription_type":{
+            "pmpt_value":"\n            Per Monthly\n          ",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_button":{
+            "pmpt_btn_txt_main":"Choose Plan",
+            "pmpt_btn_txt_sub":"",
+            "pmpt_btn_class":"pmpt_btn_fat_7 pmpt_btn",
+            "pmpt_url":"",
+            "pmpt_btn_left_ico":"",
+            "pmpt_btn_right_ico":"",
+            "pmpt_bg_clr":"",
+            "pmpt_bghover_clr":""
+         },
+         "pmpt_img_url":{
+            "pmpt_value":"",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_featured":false,
+         "pmpt_features":[
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">Unlimited</font></b> Projects<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">75 GB</font></b> Storage<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">Unlimited</font></b> Users<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">30-day free trial</font></b><br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            }
+         ],
+         "pmpt_style":{
+
+         },
+         "pmpt_featured_style":{
+
+         }
+      },
+      {
+         "pmpt_main_heading":{
+            "pmpt_value":"\n            \n            Premium\n          ",
+            "pmpt_style":{
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_sub_heading":{
+            "pmpt_value":"THE SWEET SPOT<br>",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_price":{
+            "pmpt_value":"\n            \n            $99          \n          ",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_subscription_type":{
+            "pmpt_value":"\n            Per Monthly\n          ",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_button":{
+            "pmpt_btn_txt_main":"Choose Plan",
+            "pmpt_btn_txt_sub":"",
+            "pmpt_btn_class":"pmpt_btn_fat_7 pmpt_btn",
+            "pmpt_url":"",
+            "pmpt_btn_left_ico":"",
+            "pmpt_btn_right_ico":"",
+            "pmpt_bg_clr":"",
+            "pmpt_bghover_clr":""
+         },
+         "pmpt_img_url":{
+            "pmpt_value":"",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_featured":true,
+         "pmpt_features":[
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">100</font></b> Projects<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">35 GB</font></b> Storage<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">Unlimited</font></b> Users<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">30-day free trial</font></b><br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            }
+         ],
+         "pmpt_style":{
+
+         },
+         "pmpt_featured_style":{
+
+         }
+      },
+      {
+         "pmpt_main_heading":{
+            "pmpt_value":"Plus",
+            "pmpt_style":{
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_sub_heading":{
+            "pmpt_value":"FOR SMALL GROUPS<br>",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_price":{
+            "pmpt_value":"\n            \n            $49          \n          ",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_subscription_type":{
+            "pmpt_value":"\n            Per Monthly\n          ",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_button":{
+            "pmpt_btn_txt_main":"Choose Plan",
+            "pmpt_btn_txt_sub":"",
+            "pmpt_btn_class":"pmpt_btn_fat_7 pmpt_btn",
+            "pmpt_url":"",
+            "pmpt_btn_left_ico":"",
+            "pmpt_btn_right_ico":"",
+            "pmpt_bg_clr":"",
+            "pmpt_bghover_clr":""
+         },
+         "pmpt_img_url":{
+            "pmpt_value":"",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_featured":false,
+         "pmpt_features":[
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">35</font></b> Projects<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">15 GB</font></b> Storage<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">Unlimited</font></b> Users<br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"        \n                    \n            <b><font color=\"#c12a00\">30-day free trial</font></b><br>        \n                  \n          ",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            }
+         ],
+         "pmpt_style":{
+
+         },
+         "pmpt_featured_style":{
+
+         }
+      }
+   ]
+}

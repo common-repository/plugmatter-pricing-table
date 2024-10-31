@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "pmpt-tick-cross";
+  src:url("pmpt_tick_cross/pmpt-tick-cross.eot");
+  src:url("pmpt_tick_cross/pmpt-tick-cross-1.eot?#iefix") format("embedded-opentype"),
+    url("pmpt_tick_cross/pmpt-tick-cross.woff") format("woff"),
+    url("pmpt_tick_cross/pmpt-tick-cross.ttf") format("truetype"),
+    url("pmpt_tick_cross/pmpt-tick-cross.svg#pmpt-tick-cross") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "pmpt-tick-cross" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-pmpt"]:before,
+[class*=" icon-pmpt"]:before {
+  font-family: "pmpt-tick-cross" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pmpt-ico-check1:before {
+  content: "a";
+}
+.icon-pmpt-ico-check2:before {
+  content: "b";
+}
+.icon-pmpt-ico-check8:before {
+  content: "c";
+}
+.icon-pmpt-ico-check3:before,.icon-pmpt-ico-check10:before {
+  content: "d";
+}
+.icon-pmpt-ico-check4:before,.icon-pmpt-ico-check11:before {
+  content: "e";
+}
+.icon-pmpt-ico-check9:before {
+  content: "f";
+}
+.icon-pmpt-ico-tip1:before {
+  content: "g";
+}
+.icon-pmpt-ico-tip2:before {
+  content: "h";
+}
+.icon-pmpt-ico-cross6:before {
+  content: "i";
+}
+.icon-pmpt-ico-check6:before {
+  content: "j";
+}
+.icon-pmpt-ico-check7:before {
+  content: "k";
+}
+.icon-pmpt-ico-cross7:before {
+  content: "l";
+}
+.icon-pmpt-ico-cross1:before {
+  content: "m";
+}
+.icon-pmpt-ico-cross2:before {
+  content: "n";
+}
+.icon-pmpt-ico-cross5:before {
+  content: "o";
+}
+.icon-pmpt-ico-cross3:before {
+  content: "p";
+}
+.icon-pmpt-ico-cross4:before {
+  content: "q";
+}
+.icon-pmpt-ico-check5:before {
+  content: "r";
+}

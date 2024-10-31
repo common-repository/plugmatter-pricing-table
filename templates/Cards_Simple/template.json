@@ -1,0 +1,387 @@
+{
+   "pmpt_temp_type":"CARDS",
+   "pmpt_tname":"Simple",
+   "pmpt_base_template":"Cards_Simple",
+   "pmpt_ttype":"pmpt_seperated",
+   "pmpt_con_width":"960",
+   "pmpt_tmargin":"0",
+   "pmpt_bmargin":"0",
+   "pmpt_custom_css":"",
+   "pmpt_bs_cls":"col-xs-12 col-sm-4 col-md-4",
+   "pmpt_tc":"1",
+   "pmpt_features_list":[
+      {
+         "pmpt_value":"Users",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Feature One",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Feature Two",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Feature Three",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Feature Four",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"Feature Five",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      },
+      {
+         "pmpt_value":"feature six",
+         "pmpt_style":{
+
+         },
+         "pmpt_tooltip":""
+      }
+   ],
+   "pmpt_matrix_box":{
+      "pmpt_value":"Choose Your Plan",
+      "pmpt_style":{
+         "height":"nullpx"
+      },
+      "pmpt_tooltip":""
+   },
+   "pmpt_packages":[
+      {
+         "pmpt_main_heading":{
+            "pmpt_value":"Basic",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_sub_heading":{
+            "pmpt_value":"LEVEL1",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_price":{
+            "pmpt_value":"$19",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_subscription_type":{
+            "pmpt_value":"/mo",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_button":{
+            "pmpt_btn_txt_main":"Get Started!",
+            "pmpt_btn_txt_sub":"",
+            "pmpt_btn_class":"pmpt_btn_fat_8 pmpt_btn",
+            "pmpt_url":"",
+            "pmpt_btn_left_ico":"",
+            "pmpt_btn_right_ico":"",
+            "pmpt_bg_clr":"#fa5c4f",
+            "pmpt_bghover_clr":"#f94736"
+         },
+         "pmpt_img_url":{
+            "pmpt_value":"",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_featured":false,
+         "pmpt_features":[
+            {
+               "pmpt_value":"2 Users<br>",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Filters",
+               "pmpt_style":{
+                  "text_align":""
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Agent collision prevention",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Internal notes",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            }
+         ],
+         "pmpt_style":{
+            "text_align":"center"
+         },
+         "pmpt_featured_style":{
+
+         }
+      },
+      {
+         "pmpt_main_heading":{
+            "pmpt_value":"Standard",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_sub_heading":{
+            "pmpt_value":"LEVEL2",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_price":{
+            "pmpt_value":"$44",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_subscription_type":{
+            "pmpt_value":"/mo",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_button":{
+            "pmpt_btn_txt_main":"Get Started!",
+            "pmpt_btn_txt_sub":"",
+            "pmpt_btn_class":"pmpt_btn_fat_8 pmpt_btn",
+            "pmpt_url":"",
+            "pmpt_btn_left_ico":"",
+            "pmpt_btn_right_ico":"",
+            "pmpt_bg_clr":"#fa5c4f",
+            "pmpt_bghover_clr":"#f94736"
+         },
+         "pmpt_img_url":{
+            "pmpt_value":"",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_featured":true,
+         "pmpt_features":[
+            {
+               "pmpt_value":"5 Users",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Filters",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Agent collision prevention",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Internal notes",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Custom fields",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            }
+         ],
+         "pmpt_style":{
+
+         },
+         "pmpt_featured_style":{
+
+         }
+      },
+      {
+         "pmpt_main_heading":{
+            "pmpt_value":"Overhaul",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_sub_heading":{
+            "pmpt_value":"LEVEL3",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_price":{
+            "pmpt_value":"$79",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_subscription_type":{
+            "pmpt_value":"/mo",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_button":{
+            "pmpt_btn_txt_main":"Get Started!",
+            "pmpt_btn_txt_sub":"",
+            "pmpt_btn_class":"pmpt_btn_fat_8 pmpt_btn",
+            "pmpt_url":"",
+            "pmpt_btn_left_ico":"",
+            "pmpt_btn_right_ico":"",
+            "pmpt_bg_clr":"#fa5c4f",
+            "pmpt_bghover_clr":"#f94736"
+         },
+         "pmpt_img_url":{
+            "pmpt_value":"",
+            "pmpt_style":{
+
+            },
+            "pmpt_tooltip":""
+         },
+         "pmpt_featured":false,
+         "pmpt_features":[
+            {
+               "pmpt_value":"15 Users",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Filters",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Agent collision prevention",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Internal notes",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Custom fields",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Business hours",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            },
+            {
+               "pmpt_value":"Erase Content",
+               "pmpt_style":{
+
+               },
+               "pmpt_tooltip":""
+            }
+         ],
+         "pmpt_style":{
+
+         },
+         "pmpt_featured_style":{
+
+         }
+      }
+   ]
+}

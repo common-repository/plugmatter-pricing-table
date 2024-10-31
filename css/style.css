@@ -1,0 +1,818 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,600);  
+@import url(//fonts.googleapis.com/css?family=Fauna+One);
+
+/*h2{
+	padding: 15px;
+	background-color: #B13A3A;
+	text-align: center;
+	font-family: Open Sans;
+	font-size: 25px;
+	color:#FFFFFF;
+	width: 97%;
+	border-radius: 5px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+  font-weight: 300;
+}
+*/
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+#slider2 ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+.toggler{
+  background:red;
+}
+.toggler2{
+background: yellow;
+}
+
+/*******************************************************************/
+.if_diff_sections{ 
+  margin: 10px 20px 20px 25px;
+}
+.if_returning{ 
+  margin: 0px 20px 20px 25px;
+}
+
+
+.pmpt_form_table {
+    border-collapse: collapse;
+    clear: both;
+    margin-bottom: -8px;
+    margin-top: 0.5em;
+    width: 100%;
+}
+.pmpt_form_table th  label{
+    color: #222222;
+    text-shadow: 0 1px 0 #FFFFFF;
+  font-weight:normal;
+}
+
+.pmpt_form_table th {
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+    width: 135px;
+}
+
+.pmpt_form_table td {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 9px;
+    padding: 8px 10px;
+}
+
+.pmptadmin_submit {
+  margin:0px;
+}
+
+.pmpt_primary_buttons {
+  -moz-user-select: none;
+  background-color: #CF1626;
+  background-image: -moz-linear-gradient(center top , #CF1626, #AE1F1F);
+  border: 1px solid transparent;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: default;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 46px;
+  padding: 10px 26px;
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  transition: all 0.218s ease 0s;
+  cursor:pointer;
+}
+
+.pmpt_secondary_buttons {
+  -moz-user-select: none;
+  background-color: #BEBEBE;
+  background-image: -moz-linear-gradient(center top , #BEBEBE, #AAAAAA);
+  border: 1px solid transparent;
+  border-radius: 2px 2px 2px 2px;
+  color: #FFFFFF;
+  cursor: default;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  min-width: 46px;
+  padding: 10px 26px;
+  text-align: center;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  transition: all 0.218s ease 0s;
+  cursor:pointer;
+}
+
+
+
+#ab_chart {
+  width:98%;
+  height:300px;
+  margin:30px 0px;
+}
+
+
+.pmadmin_wrap {
+  margin-right:20px;
+  margin-top:15px;
+}
+
+.pmadmin_headbar {
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background:#CF1626;
+  height:50px;
+  clear:both
+}
+
+.pmadmin_pagetitle {
+  float:left;
+  width:500px;
+  padding-left:20px;
+  color:#fff;
+}
+
+.pmadmin_pagetitle h2 {
+  font-weight:bold;
+  font-family: 'Fauna One';
+  color:#ffffff;
+}
+
+.pmadmin_pagetitle a {
+  margin:0px 15px;
+  border-radius:4px;
+  background:#B30F1E;
+  color:#fff;
+  font-size:12px;
+  font-family:"Helvetica Neue",sans-serif;
+  text-decoration:none;
+  padding:5px 10px;
+  position:relative;
+  top:-2px;
+}
+.pmadmin_pagetitle a:hover {
+  color:#f5e8e8;
+}
+.pmadmin_pagetitle a:visited {
+}
+
+.pmadmin_logodiv {
+  float:right;
+  width:270px;
+  padding-top:10px;
+}
+
+.pmadmin_body {
+  padding:20px;
+}
+
+
+
+/* --------------------- switch ------------------------------------- */
+
+input.switch:empty {
+  margin-left: -9999px;
+}
+
+input.switch:empty ~ label {
+  position: relative;
+  float: left;
+  line-height: 1.6em;
+  margin: 0.2em 0;
+  cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.switch:empty ~ label:before, 
+input.switch:empty ~ label:after {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: ' ';
+  width: 61px;
+  height:24px;
+  background-color: gray;
+  border-radius: 15px;
+  box-shadow: inset 0 2px 2px rgba(0,0,0,0.3);
+  -webkit-transition: all 100ms ease-in;
+  transition: all 100ms ease-in;
+  color:#ffffff;
+  font-family:arial;
+  font-weight:bold;
+  content:"";
+  padding: 2px 25px 0px 5px; /*3px 0px 0px 10px;*/
+}
+
+input.switch:empty ~ label:after
+{
+  top: 2px;
+  bottom: 0.1em;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow:  0 1px 0 rgba(0,0,0,0.2);
+  width:15px;
+  height:20px;
+  content:"Off";
+  left:2px;
+  color:#333333;
+  padding: 2px 25px 0px 5px; /*3px 12px 0px 10px;*/
+}
+
+input.switch:checked ~ label:before
+{
+  background-color: #CF1626;
+}
+
+input.switch:checked ~ label:after
+{
+  margin-left: 30px;
+  content:"On"
+}
+
+
+/*--------------------- messages --------------------------- */
+
+.pmpt_msg_success {
+  background:#ecffd8;
+  padding:10px;
+  margin:10px;
+  border:1px solid #b0d38b;
+}
+
+.pmpt_msg_warning {
+  background:#ffffe0;
+  padding:10px;
+  margin:0px;
+  border:1px solid #e6db55;
+  width:350px;
+}
+
+.pmpt_msg_error {
+  background:#fff3f3;
+  padding:10px;
+  margin:10px;
+  border:1px solid #ff0000;
+}
+
+.boxa_color {
+  width:15px;
+  height:15px;
+  background:#f97777;
+  float:left;
+  position:relative;
+  left:10px
+}
+
+.boxb_color {
+  width:15px;
+  height:15px;
+  background:#74c0fb;
+  float:left;
+  position:relative;
+  left:10px
+}
+
+
+/*-------------------- */
+
+.plug_enable_con {
+  margin-top:20px;
+}
+
+.plug_enable_lable {
+  width:300px;
+  float:left;
+  font-size:17px;
+  padding-top:5px;
+  color:#333333;
+}
+
+.pmpt_tgl_btn {
+  width:90px;
+  float:left;
+}
+
+.plug_list_head {
+  border-bottom: 1px solid #DDDDDD;
+    color: #333333;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 0 0 5px 3px;
+}
+
+.pm_settings_overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0.6;
+  z-index: 100;
+}
+/******************************************/
+/* Admin Edit template page css */
+
+#pmpt_add_row {
+  margin-right: 5px; 
+}
+
+.pmpt_add_row {
+  padding:10px;
+  text-align:center;
+  margin:10px auto; 
+  border: 1px dashed #999;
+  width:200px;
+  background: #eee;
+  color: #000;  
+  z-index: 99;
+}
+
+.pmpt_remove_row {
+  text-align:center;
+  margin-top: -55px;
+  width:25px;
+  background: #000;
+  color: #fff;
+  position: absolute;
+  left: -40px;
+  opacity: 0.6;
+  display: none;
+  z-index: 99;
+}
+
+.pmpt_add_row:hover, .pmpt_remove_row:hover, .pmpt_add_column:hover, .pmpt_remove_column:hover {
+  cursor: pointer;
+  background: #666;
+  color: #333;
+}
+
+.pmpt_add_column {
+  background: #eee;
+  padding: 10px;
+  text-align: center;
+  margin:10px auto;
+  border: 1px dashed #999;
+  width: 40px;
+  height: 30px;
+  color:#000;
+  float: right;
+  z-index: 99;
+}
+
+.pmpt_remove_column {
+  background: #eee;
+  padding: 10px;
+  text-align: center;
+  margin:10px auto;
+  border: 1px dashed #999;
+  width: 25px;
+  height: 25px;
+  color:#000;
+  float: right;
+  position: absolute;
+  top: -25px;
+  z-index: 99;
+}
+
+
+/** Default CSS */
+[draggable] {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-drag: element;
+  -webkit-user-drag: element;
+}
+
+[draggable] * {
+  -moz-user-drag: none;
+  -khtml-user-drag: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  /* Required to make elements draggable in old WebKit */
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+}
+
+div[contenteditable] {
+  -moz-user-select: auto;
+  -khtml-user-select: auto;
+  -webkit-user-select: auto;
+  user-select: auto;
+  -moz-user-drag: none;
+  -khtml-user-drag: none;
+  -webkit-user-drag: none;
+}
+
+div[contenteditable] * {
+  -moz-user-drag: none;
+  -khtml-user-drag: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -khtml-user-drag: none;
+  -webkit-user-drag: none;
+}
+
+.drag * {
+ pointer-events: none;
+}
+
+.pmpt_sort_handle {
+  font-size: 16px;
+  display: none;
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  border: 1px solid #ddd;
+  width: 16px;
+  height: 16px;
+}
+
+.pmpt_sort_handle:hover {
+  cursor: pointer;  
+  color: #000;
+}
+
+.pmpt_base_temp_gallery{
+  
+  margin:auto;
+}
+
+#pm_carousel li {
+  margin-left: 10px;
+  text-align: center !important;
+  width: 250px !important;
+}
+
+#pm_carousel li a img:hover{
+  box-shadow: 0 0 15px -5px #000000;
+  transform: scale(1,1.05);
+}
+
+/**--------------------------------------------------**/
+/*                 Column Space Type                  */
+/** -------------------------------------------------**/
+
+ /*CLASS FOR SEPERATED COLUMNS*/
+.pmpt_seperated {
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+/*CLASS FOR ATTACHED COLUMNS*/
+.pmpt_attached {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+/* CLASS FOR OVERLAPED COLUMNS */
+.pmpt_overlaped {
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5);
+  z-index: 99;
+  position: relative;
+}
+
+/**--------------------------------------------------**/
+/*                 Column Space Type ends             */
+/** -------------------------------------------------**/
+
+#ajax_load_template{
+  padding: 50px;
+  position: relative;
+  border: 3px dashed #ddd;
+  float: none;
+  margin-bottom: 15px;
+}
+
+.pmpt_clearfix{
+  clear:both;
+  height: 1px;
+}
+
+/* PMPT templates toolbar */
+
+#pmpt_template_toolbar{
+  height: 75px;
+  background: #ffffff;
+  border: 1px solid #DDDDDD; 
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.pmpt_toolbar_opts{
+  float: left;
+  text-align: left;
+  padding-left: 10px;
+  border-left: 1px solid #ccc;
+  padding-right: 10px;
+  height: 50px;
+  position: relative;
+}
+
+#temp_name{
+  border: none;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: none;
+  max-width: 159px;
+}
+
+#pmpt_tgl_btn{
+  padding-left:5px;
+}
+
+#pmpt_actns{
+  margin:20px 20px 20px 0px;
+}
+
+.pmpt_add_new_actn{
+  float: left;
+  padding: 5px 10px;
+  border: 1px solid #DDDDDD;
+  background: #eee;
+  font-weight: bold;
+}
+
+.pmpt_add_new_actn:hover{
+  background: #aaa;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.pmpt_opts_heading{
+  color: #162A36;
+  font-weight: bold;
+  margin-bottom: 5px;
+
+
+}
+.pmpt_toolbar_opts label{
+  position: relative;
+  top: -2px !important;
+}
+.pmpt_ttype {
+  margin: 5px;
+  display: block;
+  padding: 2px;
+  float: left;
+  margin-top: 0px;
+  border: 1px solid #DDDDDD;
+}
+
+.pmpt_ttype:hover{
+  cursor: pointer;
+  box-shadow: 0px 0px 1px 1px #ddd; 
+}
+
+#pmpt_temp_details{
+  float: left;
+}
+
+#pmpt_template_opts{
+  float: right;
+  font-size: 12px;
+}
+
+ul.col_ctrl,ul.cell_ctrl,ul.img_ctrl {
+  position: absolute;
+  z-index: 100;
+}
+
+ul.col_ctrl li, ul.cell_ctrl li,ul.img_ctrl li {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  margin: 2px;
+  padding: 0px 2px 4px 2px;
+  text-align: center;
+  position: relative;
+  list-style: none;
+  background: #DDDDDD;
+}
+
+ul.col_ctrl li, ul.img_ctrl li {
+  display: inline-block;
+}
+
+ul.cell_ctrl li {
+  display: block;
+}
+
+ul.col_ctrl li:hover, ul.cell_ctrl li:hover, ul.img_ctrl li:hover {
+  cursor: pointer;
+  color: #000;
+  box-shadow: 0px 0px 1px 1px #ccc;
+  border-color: #aaa; 
+}
+
+.pmpt_highlite_feature {
+  font-size: 13px;
+  font-style: italic;
+  font-weight: normal;
+  color: #ccc;
+}
+
+.pmpt_active_col_type {
+  box-shadow: 0px 0px 1px 1px #ccc;
+  border: 1px solid #aaa; 
+}
+
+#pmpt_tick_cross_con{
+  display: none;
+}
+
+#pmpt_tick_cross {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 2px 2px 0 #CCCCCC;
+  left: 0px;
+  margin: 0 auto;
+  padding: 10px 15px;
+  position: absolute;
+  top: 59px;
+  z-index: 101;
+  display: none;
+}
+
+#pmpt_tick_cross li { 
+  display: block;
+  margin: 0 0 10px;
+  overflow: hidden;
+}
+
+#pmpt_used_tc:hover{
+  cursor: pointer;
+}
+
+#pmpt_tick_cross .icon, #pmpt_used_tc .icon{
+  color: #162A36;
+  font-size: 24px;
+  margin: 3px;
+}
+
+#pmpt_tick_cross li:hover{
+ cursor: pointer;
+}
+
+#pmpt_tick_cross li:hover .icon {
+  color: green;
+}
+
+.pmpt_active_ftrd_col {
+  color:orange;
+}
+
+/*----for cell tooltip------------*/
+.pmpt_cell_tooltip:hover:after{
+  content: attr(data-tooltip);
+  background: rgba(0,0,0,0.7);
+  border-radius: 5px;
+  bottom: 25px;
+  color: #fff !important;
+  left: 20%;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 98;
+  min-width: 50px;
+  word-break:none;
+  max-width: 180px;
+  font-size: 11px;
+  line-height: 14px;
+}
+
+.pmpt_cell_tooltip:hover:before{
+  content: attr(data-tooltip);
+  border: solid;
+  border-color: rgba(0,0,0,0.7) transparent;
+  border-width: 6px 6px 0 6px;
+  bottom: 20px;
+  content: "";
+  left: 25%;
+  position: absolute;
+  z-index: 99;
+}
+
+.group_td{
+padding: 5px;
+
+}
+#add_more_temp{
+  margin-top: 20px;
+}
+
+.pmpt_group_table {
+    border-bottom: 1px solid #DDDDDD;
+    color: #333333;
+    margin-bottom: 20px;
+    padding: 0 0 5px 3px;
+}
+
+.pmpt_group_button{
+  margin-top: 20px;
+  background: #cf1626;
+  padding: 10px 15px;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Fauna One', serif;
+}
+
+/*----end of cell tooltip------------*/

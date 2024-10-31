@@ -1,0 +1,286 @@
+.pmpt_toolbox:after, 
+.pmpt_toolbox:before,.pmpt_button_editor:after, 
+.pmpt_button_editor:before {
+    bottom: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.pmpt_toolbox:after,.pmpt_button_editor:after {
+    border-color: rgba(255, 255, 255, 0);
+    border-bottom-color: #ffffff;
+    border-width: 11px;
+    left: 22px;
+    margin-left: -11px;
+}
+
+.pmpt_toolbox:before,.pmpt_button_editor:before {
+    border-color: rgba(113, 158, 206, 0);
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    border-width: 12px;
+    left: 22px;
+    margin-left: -12px;
+}
+
+.pmpt_toolbox{
+	  position: absolute;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2); /*set border colour here*/
+    height: auto;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2); /*set shadow colour  and size here*/
+    -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+    padding: 5px;
+    text-align: left;
+    z-index: 999;
+}	
+
+.pmpt_button_editor{
+    position: absolute;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2); /*set border colour here*/
+    height: auto;
+    border-radius: 2px;
+    -webkit-box-shadow:0px 1px 2px rgba(0, 0, 0, 0.2); /*set shadow colour  and size here*/
+    -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.2));
+    padding: 5px;
+    text-align: left;
+    z-index:999;
+} 
+
+.pmpt_toolbox li:hover{
+  box-shadow: 0px 0px 2px 2px #ccc;
+  color: #000;
+}
+
+.pmpt_toolbox li{
+  display: inline-block;
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
+  height: 16px;
+  line-height: 16px;
+  margin: 0px 3px -4px 0px;
+  text-align: center;
+  width: 16px;
+}
+
+#font_color_val_cel{
+  position:absolute;
+  left:-9999px;
+  top:-9999px;
+}
+.pmpt_c_bg_color{
+  position:absolute;
+  left:-9999px;
+  top:-9999px;
+}
+ .pmpt_f_color{
+  position:absolute;
+  left:-9999px;
+  top:-9999px;
+}
+.pmpt_b_color{
+  position:absolute;
+  left:-9999px;
+  top:-9999px;
+}
+.select_fonts{
+	width: 140px;
+	margin-left: 1%;
+}
+
+#tooltip_box{
+    margin-top: 2%;
+}
+#tooltip_text_box{
+    margin-left: 2%;
+}
+#tooltip_save{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+
+.pmpt_toolbox select{
+  display: inline-block;
+}
+
+#pmpt_cell_editor{
+  width: 210px;
+
+}
+
+#pmpt_column_editor{
+  width: 300px;
+}
+
+/**--------------------------------------------------------------------------**/
+/*                      COLUMN Eidtor                                         */
+/**--------------------------------------------------------------------------**/
+#pmpt_font_color_icon, #pmpt_back_color_icon {
+  cursor: pointer;  
+}
+
+.pmpt_inner_box {
+  font-size: 10px;
+}
+
+#pmpt_col_border {
+  background: url("../images/border_style.png") no-repeat scroll 0 0;
+  position: relative;
+  
+}
+
+#pmpt_col_shadow {
+  background: url("../images/box_shadow.png") no-repeat scroll 0 0;
+  position: relative;
+  
+}
+
+.pmpt_col_slider {
+  width: 92%;
+}
+
+/** ---------------------------------------------------------------- **/
+/*                  Button Editor CSS                                 */
+/** ------------------------------------------------------------------*/
+#pmpt_btn_details,#pmpt_btn_design{
+  font-size: 12px;
+}
+
+#pmpt_btn_tabs{
+  margin: 0px 0px 10px 0px;
+  padding: 0px;
+  border-bottom: 1px solid #dddddd;
+}
+
+#pmpt_btn_tabs li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #ddd;
+  text-transform: uppercase;
+  font-size: 10px;
+  border-bottom: none;
+  margin: 0px;
+  background-color: #dddddd;
+  position: relative;
+  top: 1px;
+}
+#pmpt_btn_tabs li:hover{
+  cursor: pointer;
+}
+
+#pmpt_btn_tabs li.pmpt_active{
+  background-color: #ffffff !important;
+  color: #333;
+}
+
+#pmpt_btn_tbl{
+  width: 300px;
+}
+
+#pmpt_btn_tbl ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+  width: 50px;
+}
+
+#pmpt_btn_tbl .pmpt_btn {
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 12px;
+  padding: 4px;
+}
+
+#pmpt_btn_tbl .pmpt_btn span{
+  font-size: 13px;
+  line-height: 10px;
+  padding: 0px;
+}
+/*----for cell tooltip------------*/
+.pmpt_cell_tooltip:hover:after{
+  content: attr(data-tooltip);
+  background: #333;
+  background: rgba(0,0,0,.8);
+  border-radius: 5px;
+  bottom: 26px;
+  color: #fff !important;
+  left: 0%;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 999;
+  white-space: normal;
+  font-size: 10px;
+  line-height: 12px;
+  width:150px;
+}
+
+.pmpt_cell_tooltip:hover:before{
+  content: attr(data-tooltip);
+  border: solid;
+  border-color: #333 transparent;
+  border-width: 6px 6px 0 6px;
+  bottom: 20px;
+  content: "";
+  left: 35%;
+  position: absolute;
+  z-index: 999;
+}
+
+/*----end of cell tooltip------------*/
+
+.pmpt_tooltip {
+  position: relative;
+}
+
+.pmpt_tooltip:hover:after {
+  content: attr(data-title);
+  background: #333;
+  background: rgba(0,0,0,.8);
+  border-radius: 5px;
+  bottom: 25px;
+  color: #fff !important;
+  left: 20%;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 98;
+  min-width: 50px;
+  white-space: normal;
+  max-width: 150px;
+  font-size: 10px;  
+  line-height: 12px;
+  width: 110px;
+}
+
+.pmpt_tooltip:hover:before {
+  content: attr(data-title);
+  border: solid;
+  border-color: #333 transparent;
+  border-width: 6px 6px 0 6px;
+  bottom: 20px;
+  content: "";
+  left: 50%;
+  position: absolute;
+  z-index: 99;
+}
+
+.pmpt_img a {
+  font-size: 12px;
+  color: #333;
+}
+
+.pmpt_img a:hover {
+  text-decoration: underline;
+} 
+
+#pmpt_col_fontsize,#pmpt_cell_fontsize {
+  width: 42px;
+}
